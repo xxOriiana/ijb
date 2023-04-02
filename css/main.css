@@ -209,6 +209,10 @@ nav {
 
 /* Feature Box
 ---------------------*/
+.services-section {
+    margin-top: -200px;
+}
+
 .container-servicios{
     border-radius: 10px;
 }
@@ -233,20 +237,11 @@ nav {
     -webkit-transition: ease all 0.35s;
     transition: ease all 0.35s;
   }
-  .feature-box-1 .icon {
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    background: #fc5356;
-    color: #ffffff;
-    text-align: center;
-    border-radius: 50%;
-    margin-bottom: 22px;
-    font-size: 27px;
+  
+  .feature-box-1 img {
+    margin-bottom: 10px;
   }
-  .feature-box-1 .icon i {
-    line-height: 70px;
-  }
+
   .feature-box-1 h5 {
     color: #20247b;
     font-weight: 600;
@@ -428,7 +423,7 @@ a {
 
 .image-container::after {
     content: "";
-    display: block;
+    display: block; 
     width: 150%;
     height: 150%;
     border-radius: 100%;
@@ -439,7 +434,22 @@ a {
 
 /* ============================== SERVICES ======================== */
 
+.services-all-box {
+    margin-top: -100px;
+}
 
+.navbar.sticky-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+.navbar {
+    margin-top: -2px;
+    margin-left: -1px;
+}
+  
 
 /* ======================== FOOTER ============================= */
 
@@ -543,8 +553,12 @@ a {
 
 /* ============================== HERO ============================== */
 
+.page-title h1{
+    color: #031e751a;
+}
+
 .page-header {
-    background: url(https://easetemplate.com/free-website-templates/hike/images/pageheader.jpg)no-repeat;
+    background: url(../img/hero.svg)no-repeat;
     position: relative;
     background-size: cover;
 }
@@ -577,8 +591,13 @@ a {
 
 /* ================================= ABOUT US ========================== */
 
+.about-us {
+    margin-top: -200px;
+}
+
 .container-seccion-about {
     background-color: rgba(225, 228, 236, 0.918);
+    border-radius: 10px;
 }
 
 .gray-bg {
