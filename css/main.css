@@ -160,7 +160,7 @@ nav {
 }
 
 .btn-social-barra {
-    z-index: 1;
+    z-index: 9999;
 }
 
 .container-barra-social i:nth-of-type(1) {
@@ -449,7 +449,7 @@ a {
     margin-top: -2px;
     margin-left: -1px;
 }
-  
+
 
 /* ======================== FOOTER ============================= */
 
@@ -591,6 +591,9 @@ a {
 
 /* ================================= ABOUT US ========================== */
 
+.aboutd-dos {
+    margin-top: -20PX;
+}
 .about-us {
     margin-top: -200px;
 }
@@ -715,6 +718,14 @@ mark {
 .dark-color {
     color: #20247b;
 }
+
+.aboutd-dos {
+    background-color: rgba(225, 228, 236, 0.918);
+}
+
+/* =============================== OUR TEAM ========================== */
+
+
 
 /* ============================== SOCILA ======================== */
 
