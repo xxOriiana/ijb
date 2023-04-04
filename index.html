@@ -2,593 +2,124 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
+    <!-- Bootstrap links -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
-
-    <link rel="icon" type="image/png" href="./img/ijb-removebg.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/main.css">
+
     <title>IJB Quality Painting Inc.</title>
 </head>
 
 <body>
 
-    <section class="hero">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+
+    <!-- ========================== NAVEGATION ==== -->
+    <section class="navgation-menu">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div class="container-fluid">
-                <img src="./img/ijb-removebg.png" alt="" width="50px">
-                <a href="" class="text-dark">IJB Quality Painting Inc.</a>
+                <img src="./img/ijb-removebg.png" width="45px" alt="">
+                <a class="navbar-brand" href="#" style="color: #031d75;">IJB Quality Painting</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ms-auto">
-                        <a class="nav-link active" href="#">Home</a>
-                        <a class="nav-link active" href="#">About us</a>
-                        <a class="nav-link active" href="#">Services</a>
-                        <a class="nav-link active" href="#">Gallery</a>
-                        <a class="nav-link active" href="#">Contact us</a>
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
     </section>
 
-
-    <!-- -------------------- SECTION BARRA SOCIAL INFERIOR --------------------- -->
-
-    <section class="btn-social-barra">
-        <div class="btn_wrap">
-            <span class="span-share">Contact Us</span>
-            <div class="container-barra-social">
-                <i class="bi bi-facebook icono-social-barra"></i>
-                <i class="bi bi-instagram icono-social-barra"></i>
-                <i class="bi bi-envelope-check-fill icono-social-barra"></i>
-                <i class="bi bi-telephone-forward-fill icono-social-barra"></i>
-            </div>
+    <!-- ========================== HERO ========== -->
+    <section class="hero">
+        <section class="hero-main"></section>
+        <div class="hero-content">
+            <h1>IJB Quality <span class="" style="color: #031d75;">Painting Inc.</span></h1>
+            <p class="p-move-hero" id="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi esse earum
+                cum,
+                consequatur veniam quam
+                tempore corporis deleniti.<span id="cursor">|</span></p>
         </div>
     </section>
 
-    <!-- ------------------------- SECTION HERO -------------------------->
-
-    <section class="hero-hero">
-        <!-- page-header -->
-        <div class="page-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="page-caption">
-                            <h1 class="page-title" style="color: #031d75;">IJB Quality Painting Inc.</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.page-header-->
-        <!-- news -->
-        <div class="card-section">
-            <div class="container  rounded-3">
-                <div class="card-block bg-white mb30">
-                    <div class="row">
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                            <!-- section-title -->
-                            <div class="section-title mb-0">
-                                <h2>I welcome you to IJB Quality Painting</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius deserunt, voluptates
-                                    velit vel quas accusamus expedita asperiores at quod architecto atque libero tempore
-                                    hic est, nostrum error perspiciatis soluta suscipit! </p>
-                            </div>
-                            <!-- /.section-title -->
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-
-                </div>
-            </div>
-        </div>
+    <!-- ========================== HERO-BOT ====== -->
+    <section class="hero-bot">
+        <div class="container-fluid hero-bot">
+            <p class="frase-hero"><q style="font-style: italic;">Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit. Laborum nobis minima eos ipsum ea fugit, quam harum delectus quis animi recusandae quibusdam.
+                    Neque explicabo ipsum in officiis debitis ex quos!</q></p>
         </div>
     </section>
 
-    <!-- ----------------------- SECTION ABOUT ---------------------->
-
-    <section class="about-us ">
-        <section class="section about-section " id="about">
-            <div class="container container-seccion-about">
-                <div class="row align-items-center flex-row-reverse">
-                    <div class="col-lg-6">
-                        <div class="about-text go-to">
-                            <h3 class="dark-color">About Me</h3>
-                            <h6 class="theme-color lead">IJB Quality Painting Inc.</h6>
-                            <p>I <mark>Lorem ipsum dolor</mark>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Optio animi repellat labore deleniti atque molestias nam eius, sunt dignissimos officia
-                                et incidunt odit quos accusamus nulla ex quis impedit necessitatibus.</p>
-                            <div class="row about-list">
-                                <div class="col-md-6">
-                                    <div class="media">
-                                        <label>Birthday</label>
-                                        <p>4th april 1998</p>
-                                    </div>
-                                    <div class="media">
-                                        <label>Age</label>
-                                        <p>22 Yr</p>
-                                    </div>
-                                    <div class="media">
-                                        <label>Residence</label>
-                                        <p>Canada</p>
-                                    </div>
-                                    <div class="media">
-                                        <label>Address</label>
-                                        <p>California, USA</p>
-                                    </div>
+    <!-- ========================== HERO-FEATURES = -->
+    <section class="hero-features">
+        <div class="container">
+            <section class="py-5" id="features">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5 mb-lg-0">
+                            <h2 class="fw-bolder mb-0">What we offer and how we start with your vision.</h2>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="row gx-5 row-cols-1 row-cols-md-2">
+                                <div class="col mb-5 h-100">
+                                    <div class="feature text-white rounded-3 mb-3"><i
+                                            class="bi bi-signal icon-feature"></i></div>
+                                    <h2 class="h5">Quickly answers</h2>
+                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here
+                                        is just a bit more text.</p>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="media">
-                                        <label>E-mail</label>
-                                        <p>info@domain.com</p>
-                                    </div>
-                                    <div class="media">
-                                        <label>Phone</label>
-                                        <p>820-885-3321</p>
-                                    </div>
-                                    <div class="media">
-                                        <label>Skype</label>
-                                        <p>skype.0404</p>
-                                    </div>
-                                    <div class="media">
-                                        <label>Freelance</label>
-                                        <p>Available</p>
-                                    </div>
+                                <div class="col mb-5 h-100">
+                                    <div class="feature text-white rounded-3 mb-3"><i
+                                            class="bi bi-building icon-feature"></i></div>
+                                    <h2 class="h5">Free Estimates</h2>
+                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here
+                                        is just a bit more text.</p>
+                                </div>
+                                <div class="col mb-5 mb-md-0 h-100">
+                                    <div class="feature text-white rounded-3 mb-3"><i
+                                            class="bi bi-alarm icon-feature"></i></div>
+                                    <h2 class="h5">Fast Times</h2>
+                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here
+                                        is just a bit more text.</p>
+                                </div>
+                                <div class="col h-100">
+                                    <div class="feature text-white rounded-3 mb-3"><i
+                                            class="bi bi-toggles2 icon-feature"></i></div>
+                                    <h2 class="h5">High quality</h2>
+                                    <p class="mb-0">Paragraph of text beneath the heading to explain the heading. Here
+                                        is just a bit more text.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="about-avatar">
-                            <img src="./img/ijb-removebg.png" title="" alt="">
-                        </div>
-                    </div>
                 </div>
-            </div>
-
-            <div class="container aboutd-dos">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6 order-2 order-md-1 mt-4 pt-2 mt-sm-0 opt-sm-0">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 col-md-6 col-6">
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-12 mt-4 pt-2">
-                                        <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
-                                            <img src="./img/pintorsenor.svg" class="img-fluid" alt="Image" />
-                                            <div class="img-overlay bg-dark"></div>
-                                        </div>
-                                    </div>
-                                    <!--end col-->
-                                </div>
-                                <!--end row-->
-                            </div>
-                            <!--end col-->
-
-                            <div class="col-lg-6 col-md-6 col-6">
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-12">
-                                        <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
-                                            <img src="./img/estimados.svg" class="img-fluid" alt="Image" />
-                                            <div class="img-overlay bg-dark"></div>
-                                        </div>
-                                    </div>
-                                    <!--end col-->
-
-                                    <div class="col-lg-12 col-md-12 mt-4 pt-2">
-                                        <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
-                                            <img src="./img/pintotop (2).svg" class="img-fluid" alt="Image" />
-                                            <div class="img-overlay bg-dark"></div>
-                                        </div>
-                                    </div>
-                                    <!--end col-->
-                                </div>
-                                <!--end row-->
-                            </div>
-                            <!--end col-->
-                        </div>
-                        <!--end row-->
-                    </div>
-                    <!--end col-->
-
-                    <div class="col-lg-6 col-md-6 col-12 order-1 order-md-2">
-                        <div class="section-title ml-lg-5">
-                            <h4 style="color: #031d75;;" class="title mb-4">
-                                Our mission is to <br />
-                                make your life easier.
-                            </h4>
-                            <p class="text-muted mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit quod
-                                debitis praesentium pariatur temporibus ipsa, cum quidem obcaecati sunt?</p>
-
-                            <div class="row">
-                                <div class="col-lg-6 mt-4 pt-2">
-                                    <div class="media align-items-center rounded shadow p-3">
-                                        <i class="fa fa-play h4 mb-0 text-custom"></i>
-                                        <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Contact
-                                                Us</a></h6>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 mt-4 pt-2">
-                                    <div class="media align-items-center rounded shadow p-3">
-                                        <i class="fa fa-file-download h4 mb-0 text-custom"></i>
-                                        <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Free
-                                                estimates</a></h6>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 mt-4 pt-2">
-                                    <div class="media align-items-center rounded shadow p-3">
-                                        <i class="fa fa-user h4 mb-0 text-custom"></i>
-                                        <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Support</a>
-                                        </h6>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 mt-4 pt-2">
-                                    <div class="media align-items-center rounded shadow p-3">
-                                        <i class="fa fa-image h4 mb-0 text-custom"></i>
-                                        <h6 class="ml-3 mb-0"><a href="javascript:void(0)"
-                                                class="text-dark">Development</a></h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end col-->
-                </div>
-                <!--enr row-->
-            </div>
-        </section>
-    </section>
-    <br><br>
-
-    <!-- ------------------------------- OUR TEAM --------------------- -->
-
-
-
-    <!-- -------------------- SECTION SERVICIOS --------------------- -->
-
-    <section class="section services-section " id="services">
-        <div class="container bg-light container-servicios">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="section-title">
-                        <h2>What I Do</h2>
-                        <p>I design and develop services for customers of all sizes, specializing in creating stylish,
-                            modern websites</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row services-all-box">
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-4">
-                    <div class="feature-box-1">
-                        <div class="icon">
-                            <!-- <i class="bi bi-paint-bucket"></i> -->
-                            <img src="./img/painting.svg" alt="" class="rounded-3" width="100%">
-                        </div>
-                        <div class="feature-content">
-                            <h5>Painting</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, molestiae nihil. Corporis
-                                expedita aliquid.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- / -->
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-4">
-                    <div class="feature-box-1">
-                        <div class="icon">
-                            <!-- <i class="bi bi-palette2"></i> -->
-                            <img src="./img/drywall.svg" alt="" class="rounded-3" width="100%">
-                        </div>
-                        <div class="feature-content">
-                            <h5>Drywall Repair</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, molestiae nihil. Corporis
-                                expedita aliquid.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- / -->
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-4">
-                    <div class="feature-box-1">
-                        <div class="icon">
-                            <!-- <i class="bi bi-box-arrow-up-right"></i> -->
-                            <img src="./img/exteriorpainting.svg" alt="" class="rounded-3" width="100%">
-                        </div>
-                        <div class="feature-content">
-                            <h5>Exterior Painting</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, molestiae nihil. Corporis
-                                expedita aliquid.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- / -->
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-4">
-                    <div class="feature-box-1">
-                        <div class="icon">
-                            <!-- <i class="fa fa-image"></i> -->
-                            <img src="./img/comercialpainting.svg" alt="" class="rounded-3" width="100%">
-                        </div>
-                        <div class="feature-content">
-                            <h5>Commercial Painting</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, molestiae nihil. Corporis
-                                expedita aliquid.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- / -->
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-4">
-                    <div class="feature-box-1">
-                        <div class="icon">
-                            <!-- <i class="fa fa-th"></i> -->
-                            <img src="./img/residentialpainting.svg" alt="" class="rounded-3" width="100%">
-                        </div>
-                        <div class="feature-content">
-                            <h5>Residential Painting</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, molestiae nihil. Corporis
-                                expedita aliquid.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- / -->
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-4">
-                    <div class="feature-box-1">
-                        <div class="icon">
-                            <!-- <i class="fa fa-cog"></i> -->
-                            <img src="./img/woodstain.svg" alt="" class="rounded-3" width="100%">
-                        </div>
-                        <div class="feature-content">
-                            <h5>Wood Stain</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, molestiae nihil. Corporis
-                                expedita aliquid.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- / -->
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-4">
-                    <div class="feature-box-1">
-                        <div class="icon">
-                            <!-- <i class="fa fa-cog"></i> -->
-                            <img src="./img/popcorn.svg" alt="" class="rounded-3" width="100%">
-                        </div>
-                        <div class="feature-content">
-                            <h5>Popcorn Celing Removal</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, molestiae nihil. Corporis
-                                expedita aliquid.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- / -->
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-4">
-                    <div class="feature-box-1">
-                        <div class="icon">
-                            <!-- <i class="fa fa-cog"></i> -->
-                            <img src="./img/wallpaper.svg" alt="" class="rounded-3" width="100%">
-                        </div>
-                        <div class="feature-content">
-                            <h5>Wall Paper Removal</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, molestiae nihil. Corporis
-                                expedita aliquid.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- / -->
-                <!-- feaure box -->
-                <div class="col-sm-6 col-lg-4">
-                    <div class="feature-box-1">
-                        <div class="icon">
-                            <!-- <i class="fa fa-cog"></i> -->
-                            <img src="./img/freeestimate.svg" alt="" class="rounded-3" width="100%">
-                        </div>
-                        <div class="feature-content">
-                            <h5>Free Painting Estimate</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, molestiae nihil. Corporis
-                                expedita aliquid.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- / -->
-            </div>
+            </section>
         </div>
     </section>
 
-    <!-- ----------------------------SECION NEWSLKLETER --------------------------->
-
-    <div class="row d-flex justify-content-center align-items-center rows">
-
-        <div class="col-md-6 newsemail">
-
-
-            <div class="card newsemail">
-
-
-                <div class="text-center">
-
-                    <img src="./img/email.png" width="200">
-                    <span class="d-block mt-3">Subscribe to our newsletter in order not to miss new arrivals <br> promotions and discounts of our store</span>
-
-                    <div class="mx-5">
-
-
-                       <div class="input-group mb-3 mt-4">
-                          <input type="text" class="form-control" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="button-addon2">
-                          <button class="btn btn-success border-rad" type="button" id="button-addon2">Subscribe</button>
-                        </div>
-                        
-
-                    </div>
-                    
-                </div>
-                
-            </div>
-            
-        </div>
-
-
-
-        
-    </div>
-
-    <!-- -------------------- SECTION GALLERYA --------------------- -->
-
-    <div class="content">
-    
-        <div class="site-section bg-left-half mb-5">
-          <div class="container owl-2-style">
-            
-            <h2 class=" py-5 " style="color: #031d75;">Gallery of our works</h2>
-            
-    
-            <div class="owl-carousel owl-2">
-              <div class="media-29101">
-                <a href="#"><img src="./img/painting.svg" alt="Image" class="img-fluid"></a>
-                <h3><a href="#">Consectetur Adipisicing Elit</a></h3>
-              </div>
-              <div class="media-29101">
-                <a href="#"><img src="./img/baseboard.svg" alt="Image" class="img-fluid"></a>
-                <h3><a href="#">Beatae Doloribu</a></h3>
-              </div>
-              <div class="media-29101">
-                <a href="#"><img src="./img/cabinets.svg" alt="Image" class="img-fluid"></a>
-                <h3><a href="#">Accusantium Eius Soluta</a></h3>
-              </div>
-              <div class="media-29101">
-                <a href="#"><img src="./img/comercialpainting.svg" alt="Image" class="img-fluid"></a>
-                <h3><a href="#">Consectetur Adipisicing Elit</a></h3>
-              </div>
-              <div class="media-29101">
-                <a href="#"><img src="./img/drywall.svg" alt="Image" class="img-fluid"></a>
-                <h3><a href="#">Beatae Doloribu</a></h3>
-              </div>
-              <div class="media-29101">
-                <a href="#"><img src="./img/exteriorpainting.svg" alt="Image" class="img-fluid"></a>
-                <h3><a href="#">Accusantium Eius Soluta</a></h3>
-              </div>
-            </div>
-
-            <script>
-                $(function() {
-
-if ( $('.owl-2').length > 0 ) {
-    $('.owl-2').owlCarousel({
-        center: false,
-        items: 1,
-        loop: true,
-        stagePadding: 0,
-        margin: 20,
-        smartSpeed: 1000,
-        autoplay: true,
-        nav: true,
-        dots: true,
-        pauseOnHover: false,
-        responsive:{
-            600:{
-                margin: 20,
-                nav: true,
-              items: 2
-            },
-            1000:{
-                margin: 20,
-                stagePadding: 0,
-                nav: true,
-              items: 3
-            }
-        }
-    });            
-}
-
-})
-            </script>
-
-          </div>
-        </div>
-    
-      </div>
-
-    <!-- -------------------- SECTION FORMULARIO --------------------- -->
-
-    <section class="formulario  py-1">
-        <div class="container-fluid contact-form">
-            <div class="contact-image">
-                <img src="./img/rocket_contact.png" alt="rocket_contact" />
-            </div>
-            <form method="post">
-                <h3>Drop Us a Message</h3>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" name="Name" class="form-control" placeholder="Your Name *" value=""
-                                required />
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="Email" class="form-control" placeholder="Your Email *" value=""
-                                required />
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="Phone" class="form-control" placeholder="Your Phone Number *"
-                                value="" required />
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <textarea name="Msg" class="form-control" placeholder="Your Message *"
-                                style="width: 100%; height: 150px;"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" name="btnSubmit" class="btnContact text-center" value="Send Message" />
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
-
-        <script>
-            const form = document.querySelector('form');
-
-            form.addEventListener('submit', (event) => {
-                event.preventDefault();
-                const formData = new FormData(event.target);
-
-                // Aquí puedes enviar los datos del formulario a una API o servicio de correo electrónico si lo deseas
-
-                // Mostramos un mensaje de éxito al usuario
-                const successMsg = document.createElement('p');
-                successMsg.textContent = '¡Tu mensaje se envió correctamente! Gracias por contactarnos.';
-                form.appendChild(successMsg);
-
-                // Reiniciamos el formulario para permitir nuevos envíos
-                form.reset();
-            });
-
-        </script>
-    </section>
-
-    <!-- -------------------- SECTION FOOTER --------------------- -->
-
+    <!-- ========================= FOTTER ========= -->
     <section class="section-footer">
         <footer class="bg-dark-gradient footer">
             <div class="footer-top">
@@ -601,9 +132,9 @@ if ( $('.owl-2').length > 0 ) {
                                 </h4>
                             </div>
                             <div class="col-lg-4 col-xl-6">
-                                <form class="d-flex flex-row mb-2 p-1 bg-white input-group">
-                                    <input type="email" class="form-control rounded-0 border-0"
-                                        placeholder="you@yoursite.com">
+                                <form class="d-flex flex-row mb-2 p-1 bg-white input-group box-sub">
+                                    <input type="email" class="form-control"
+                                        placeholder="yourmail@here">
                                     <button class="btn btn-secondary rounded-0 flex-shrink-0"
                                         type="submit">Subscribe</button>
                                 </form>
@@ -726,19 +257,16 @@ if ( $('.owl-2').length > 0 ) {
     </section>
 
 
+
+
+
 </body>
-<script src="./js/main.js"></script>
-<!-- Optional JavaScript; choose one of the two! -->
-
-<!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+<script src="./js/hero.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
     crossorigin="anonymous"></script>
-
-<!-- Option 2: Separate Popper and Bootstrap JS -->
-<!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
 
 </html>
