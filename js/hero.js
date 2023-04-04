@@ -2,7 +2,7 @@ const text = document.querySelector("#text");
 const cursor = document.querySelector("#cursor");
 let textIndex = 0;
 let cursorInterval;
-let textDuration = 50;
+let textDuration = 40;
 const originalText = text.innerHTML;
 
 function typeText() {
