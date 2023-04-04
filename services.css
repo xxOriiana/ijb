@@ -1,0 +1,100 @@
+/* ================================== NAVEGATION ========================== */
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 15px;
+}
+
+/* ================================== SERVICES ========================== */
+
+.titulo-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: #031d75;
+  color: #fff;
+}
+
+.titulo-services h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.titulo-services p {
+  margin: 0;
+  padding: 0;
+}
+
+.inf-services {
+  max-width: 90%;
+  background-color: #f8f0f0;
+  height: 300px;
+  margin-top: -150px;
+  border-radius: 7px;
+  /* border: 1px solid; */
+  box-shadow: 0px 0px 5px 1px rgba(65, 36, 201, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(65, 36, 201, 0.75);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(65, 36, 201, 0.75);
+}
+
+.inf-services-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+
+.inf-services-two h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.inf-services-two h2 {
+  margin: 0;
+  padding: 0;
+  border-left: 6px solid #031d75;
+  padding-left: 10px; /* Opcional, para dar un poco de espacio entre la línea y el texto */
+}
+
+
+.inf-services-two p {
+  margin: 0;
+  padding: 0;
+}
+
+.services {
+  margin-top: 50px !important;
+}
+
+.ratings i {
+  color: green;
+}
+
+.install span {
+  font-size: 12px;
+}
+
+.col-md-4 {
+  margin-top: 27px;
+}
+
+.servisio-texto {
+  margin-left: 20px;
+}
+
+.img-serv {
+  border-radius: 10px;
+}
+
+.footer-services {
+  margin-top: 300px;
+}
