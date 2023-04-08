@@ -1,0 +1,15 @@
+/* ================================== NAVEGATION ========================== */
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 15px;
+}
+
+/* ================================== GENERAL ========================== */
+
+
