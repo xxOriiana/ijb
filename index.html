@@ -1,290 +1,397 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <!-- Bootstrap links -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-  <link rel="stylesheet" href="./css/main.css" />
-
-  <title>IJB Quality Painting Inc.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- LINKS DE BOOTSTRAP 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!-- LINKS DE CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- FUENTES DE LETRA -->
 </head>
 
 <body>
-  <!-- ========================== NAVEGATION ==== -->
-  <section class="navgation-menu">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-      <div class="container-fluid">
-        <img src="./img/ijb-removebg.png" width="45px" alt="" />
-        <a class="navbar-brand" href="">IJB Quality Painting Inc.</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./html/services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./html/gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./html/contact.html">Contact</a>
-            </li>
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="./html/FAQ.html">FQA</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </section>
 
-  <!-- ========================== HERO ========== -->
-  <section class="hero d-flex justify-content-center align-items-center">
-    <section class="left-lado mt-3 text-center p-3">
-      <h1 style="color: #031d75">
-        IJB Quality <span class="">Painting Inc.</span>
-      </h1>
-      <p class="p-move-hero p-3" id="text">
-        "Welcome to IJB Quality Painting Inc, where every stroke of our brush
-        is a superpower that brings color and life to your world. We're not
-        just painters, we're artists who take pride in transforming your space
-        into a masterpiece of beauty and elegance."<span id="cursor">|</span>
-      </p>
-    </section> 
-    <!-- <img src="./img/ijb-removebg.png" alt="Descripción de la imagen" class="hero-image right-lado"> -->
-</section>
-
-  
-  
-
-  <!-- ========================== HERO-BOT ====== -->
-  <section class="hero-bot">
-    <div class="container-fluid hero-bot">
-      <p class="frase-hero">
-        <q style="font-style: italic">In our painting company, we not only have the passion and drive to
-          be the best, but we also have the talent and skill to turn any
-          project into a high-quality masterpiece.</q>
-      </p>
-    </div>
-  </section>
-
-  <!-- ========================== HERO-FEATURES = -->
-  <section class="hero-features mt-5">
-    <div class="container">
-      <section class="py-5" id="features">
-        <div class="container px-5 my-5">
-          <div class="row gx-5">
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <h2 class="fw-bolder mb-0">
-                What we offer and how we start your project.
-              </h2>
+    <!-- MENU OFCANVAS -->
+    <section class="menu-navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2 fixed-top menu-home">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">IJB Quality Painting</a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="./index.html">Home</a>
+                        <a class="nav-link" href="./html/services.html">Services</a>
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="./html/contact.html">Contact</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-8">
-              <div class="row gx-5 row-cols-1 row-cols-md-2">
-                <div class="col mb-5 h-100">
-                  <div class="feature text-white rounded-3 mb-3">
-                    <i class="bi bi-signal icon-feature"></i>
-                  </div>
-                  <h2 class="h5">Quickly answers</h2>
-                  <p class="mb-0">
-                    Get the information you need fast and accurately with our prompt and reliable response system. We
-                    value your time and strive to provide you with the answers you need as quickly as possible.
-                  </p>
-                </div>
-                <div class="col mb-5 h-100">
-                  <div class="feature text-white rounded-3 mb-3">
-                    <i class="bi bi-building icon-feature"></i>
-                  </div>
-                  <h2 class="h5">Free Estimates</h2>
-                  <p class="mb-0">
-                    At IJB Quality Painting Inc, we believe that you deserve to know the cost of your project upfront,
-                    which is why we offer free estimates. We'll provide you with a comprehensive quote, so you can make
-                    an informed decision without any surprises.
-                  </p>
-                </div>
-                <div class="col mb-5 mb-md-0 h-100">
-                  <div class="feature text-white rounded-3 mb-3">
-                    <i class="bi bi-alarm icon-feature"></i>
-                  </div>
-                  <h2 class="h5">Fast Times</h2>
-                  <p class="mb-0">
-                    We understand that your time is valuable, which is why we work efficiently to get your project done
-                    in a timely manner without compromising on quality. Our team of experts is dedicated to providing
-                    you with fast and reliable service, so you can enjoy your space sooner.
-                  </p>
-                </div>
-                <div class="col h-100">
-                  <div class="feature text-white rounded-3 mb-3">
-                    <i class="bi bi-toggles2 icon-feature"></i>
-                  </div>
-                  <h2 class="h5">High quality</h2>
-                  <p class="mb-0">
-                    At IJB Quality Painting Inc, we're committed to delivering exceptional quality in everything we do.
-                    From using only the finest materials to our attention to detail, we take pride in providing you with
-                    a flawless finish that will leave you in awe. Experience the difference of our high-quality
-                    workmanship.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  </section>
+        </nav>
+        <!-- MENU OFCANVAS -->
+        <nav class="navbar navbar-dark bg-dark fixed-top menu-ofcanvas">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">IJB Quality Painting</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="bi bi-box-arrow-left"></i>
+                </button>
 
-  <!-- ========================= FOTTER ========= -->
-  <section class="section-footer">
-    <footer class="bg-dark-gradient footer">
-      <div class="footer-top">
-        <div class="container container-footer">
-          <div class="footer-border-bottom pb-6 mb-5">
+                <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title h5-ofcanvas" id="offcanvasNavbarLabel">IJB Quality Painting Inc.</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body navbar-dark bg-dark">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./html/services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./html/contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <!-- <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- FINAL DEL MUNU -->
+    </section>
+
+    <!-- START HERO -->
+    <section class=" p-5 text-center text-sm-start" id="home">
+        <div class="container py-5 mt-5 hero-main">
+            <div class="d-sm-flex align-items-center justify-content-between py-5 hero-conten">
+                <div>
+                    <h1>Welcome to <span style="color: #071d6e;">IJB Quality Painting Inc. </span></h1>
+                    <br>
+                    <p class="p-hero-1">
+                        "Welcome to IJB Quality Painting Inc, where every stroke of our brush is a superpower that
+                        brings color and life to your world. We're not just painters, we're artists who take pride in
+                        transforming your space into a masterpiece of beauty and elegance."|
+                    </p>
+                </div>
+                <a href="">
+                    <img src="./img/ijb-removebg.png" class="img-fluid img-hero" width="1000">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- START NEWSLATTER -->
+    <section class="text-light p-5 newslatter">
+        <div class="container py-5">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">
+                    Sign Up for Newslatter
+                </h3>
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter E-mail" name="">
+
+                    <button class="btn btn-dark">
+                        Discover
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section><br>
+
+    <!-- SECCION SERVICES -->
+    <section class="section services-section mt-5" id="services">
+        <div class="container">
             <div class="row">
-              <div class="col-lg-4 col-xl-3">
-                <h4 class="text-white">Sign up to Get Latest Updates</h4>
-              </div>
-              <div class="col-lg-4 col-xl-6">
-                <form class="d-flex flex-row mb-2 p-1 bg-white input-group box-sub">
-                  <input type="email" class="form-control" placeholder="yourmail@here" />
-                  <button class="btn btn-secondary rounded-0 flex-shrink-0" type="submit">
-                    Subscribe
-                  </button>
-                </form>
-              </div>
-              <div class="col-lg-4 col-xl-3">
-                <div class="text-lg-end text-white">
-                  <span class="h6">Call Us On</span><br />
-                  <span class="h3">(661) 246-7221</span>
+                <div class="col-lg-6">
+                    <div class="section-title">
+                        <h2 style="color: #081f74 !important;">What we offer and how we start your project.</h2>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6 col-lg-3 my-4">
-              <div class="text-white-65 mb-4 text-light">
-                Contact us on our social networks.
-              </div>
-              <div class="nav footer-socila-icon">
-                <a href="#">
-                  <i class="bi bi-facebook"></i>
-                </a>
-                <a href="#">
-                  <i class="bi bi-instagram"></i>
-                </a>
-                <a href="#">
-                  <i class="bi bi-whatsapp"></i>
-                </a>
-                <a href="#">
-                  <i class="bi bi-envelope"></i>
-                </a>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-2 my-4">
-              <h5 class="text-white h6 mb-4">Customer</h5>
-              <ul class="list-unstyled white-link footer-links">
-                <li>
-                  <a href="#">Get Corpo</a>
-                </li>
-                <li>
-                  <a href="#">Documentation</a>
-                </li>
-                <li>
-                  <a href="#">Help center</a>
-                </li>
-                <li>
-                  <a href="#">Pricing</a>
-                </li>
-                <li>
-                  <a href="#">Contact us</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-sm-6 col-lg-2 my-4">
-              <h5 class="text-white h6 mb-4">Product</h5>
-              <ul class="list-unstyled white-link footer-links">
-                <li>
-                  <a href="#">Portfolio</a>
-                </li>
-                <li>
-                  <a href="#">Blog</a>
-                </li>
-                <li>
-                  <a href="#">Join our team</a>
-                </li>
-                <li>
-                  <a href="#">Elements</a>
-                </li>
-                <li>
-                  <a href="#">Products</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-sm-6 col-lg-2 my-4">
-              <h5 class="text-white h6 mb-4">Company</h5>
-              <ul class="list-unstyled white-link footer-links">
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">Careers</a>
-                </li>
-                <li>
-                  <a href="#">Legal &amp; Security</a>
-                </li>
-                <li>
-                  <a href="#">Terms of use</a>
-                </li>
-                <li>
-                  <a href="#">We're hiring!</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-sm-6 col-lg-3 my-4">
-              <!-- <h5 class="text-white h6 mb-4">Company</h5> -->
-              <div class="white-link">
-                <div class="d-flex pb-3">
-                  <div class="avatar avatar-lg rounded">
-                    <img src="./img/logo-ijb.jpg" class="rounded-1" alt=""/>
-                  </div>
-                  <div class="col ps-3">
-                    <small class="text-white-65">31/03/2023</small>
-                    <h6 class="font-w-500 h6 m-0">
-                      <a class="text-white" href="#">IJB Quality Painting Inc.</a>
-                    </h6>
-                  </div>
+            <div class="row">
+                <!-- feaure box -->
+                <div class="col-sm-6 col-lg-4">
+                    <div class="feature-box-1">
+                        <div class="icon">
+                            <i class="bi bi-chat-fill"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5>Quickly answers</h5>
+                            <p>Get the information you need promptly and accurately with our fast and dependable
+                                response system. We value your time and aim to give you the answers you need as quickly
+                                as possible.</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <!-- / -->
+                <!-- feaure box -->
+                <div class="col-sm-6 col-lg-4">
+                    <div class="feature-box-1">
+                        <div class="icon">
+                            <i class="bi bi-brightness-high-fill"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5>High quality</h5>
+                            <p>At IJB Quality Painting Inc, we're committed to delivering exceptional quality in
+                                everything we do. From using only the finest materials to our attention to detail.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- / -->
+                <!-- feaure box -->
+                <div class="col-sm-6 col-lg-4">
+                    <div class="feature-box-1">
+                        <div class="icon">
+                            <i class="bi bi-fast-forward-circle-fill"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5>Fast Times</h5>
+                            <p>We understand that your time is precious, which is why we work efficiently to complete
+                                your project in a timely manner without compromising on quality. Our team of experts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- / -->
+                <!-- feaure box -->
+                <div class="col-sm-6 col-lg-4">
+                    <div class="feature-box-1">
+                        <div class="icon">
+                            <i class="bi bi-shield-fill-exclamation"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h5>More than 8 years of experience</h5>
+                            <p>With over 8 years of experience, we are a skilled and reliable team. We handle projects
+                                of all sizes and complexities and deliver high-quality workmanship and exceptional
+                                customer service.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- / -->
+                <!-- feaure box -->
+                <!-- / -->
             </div>
-          </div>
         </div>
-      </div>
-      <div class="footer-bottom footer-border-top light py-3">
-        <div class="container-fluid text-center">
-          <p class="m-0 text-light">
-            © 2023 copyright <a href="#" class="text-reset">orianna-code</a>
-          </p>
+    </section>
+
+    <!-- ESTIMATE SECCION -->
+    <section class="bg-dark text-light p-5">
+        <div class="container py-5">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>We offer free estimate</h2>
+                    <p>At IJB, we understand that every project is unique and requires careful consideration. That's why
+                        we offer free estimates to ensure that you have all the information you need to make an informed
+                        decision. Our team of experts will work with you to understand your requirements and provide you
+                        with a detailed quote that takes into account every aspect of the project. We believe in
+                        transparency and want you to have a clear understanding of the work we will be doing and the
+                        costs involved. With our free estimate, you can be confident that there won't be any unexpected
+                        costs or surprises. Contact us today to schedule your free estimate and let us help you bring
+                        your project to life.</p>
+                    <a href="#" class="btn btn-light mt-3"> <i class="bi bi-chevron-right"></i> Read More</a>
+                </div>
+                <div class="col-md">
+                    <a href="#">
+                        <img src="./img/freeestimate.svg" class="img-fluid rounded-3">
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
+
+
+
+    <!-- INSTRUCTION SECTION -->
+    <section class="p-5 intrctorees-seccion">
+        <div class="container py-5">
+            <h2 class="text-center text-white">Our Instruction</h2>
+
+            <p class="lead text-center text-white mb-5">
+                At Our Instruction, we provide engaging learning experiences. Our experienced instructors deliver
+                high-quality instruction using the latest teaching methodologies and technologies. Join us and achieve
+                your full potential.
+            </p>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center p-5">
+                            <img src="https://imgs.search.brave.com/t6xfV6FvvOWc4Jx554Ara_28ucbexnYPGI40U-Sb0Uc/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9jZG4u/aWNvbi1pY29ucy5j/b20vaWNvbnMyLzI2/NDMvUE5HLzUxMi9m/ZW1hbGVfd29tYW5f/YXZhdGFyX3Blb3Bs/ZV9wZXJzb25fd2hp/dGVfdG9uZV9pY29u/XzE1OTM3MC5wbmc"
+                                class="rounded-circle mb-3" height="90px" width="90px">
+                            <h3 class="card-title mb-3">Claudia</h3>
+                            <p class="card-text">
+
+                            </p>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1 lead"></i></a>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1 lead"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1 lead"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1 lead"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer id="contact" class="page-footer p-5 text-md-left">
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-uppercase font-weight-bold mb-4">
+                        @ijbqualitypainting
+                    </h5>
+                    <p class="card-text">
+                        Follow @IJBQualityPainting on social media for the latest updates on our services and projects.
+                    </p>
+                    <a href="#"><i class="bi bi-facebook text-dark mx-1 lead"></i></a>
+                    <a href="#"><i class="bi bi-twitter text-dark mx-1 lead"></i></a>
+                    <a href="#"><i class="bi bi-linkedin text-dark mx-1 lead"></i></a>
+                    <a href="#"><i class="bi bi-instagram text-dark mx-1 lead"></i></a>
+                </div>
+                <div class="col-lg-2 col-md-2 mx-auto">
+                    <h5 class="text-uppercase font-weight-bold mb-4">Services</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-1"><a href="#">General Painting</a></li>
+                        <li class="mb-1"><a href="#">Drywall Reparation</a></li>
+                        <li class="mb-1"><a href="#">Remodel Home</a></li>
+                        <li class="mb-1"><a href="#">General Clean Up</a></li>
+                        <li class="mb-1"><a href="#">General Demolition</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-2 mx-auto">
+                    <h5 class="text-uppercase font-weight-bold mb-4">Page Links</h5>
+                    <ul class="list-styled">
+                        <li class="mb-1"><a href="#">Home</a></li>
+                        <li class="mb-1"><a href="#">About</a></li>
+                        <li class="mb-1"><a href="#">Services</a></li>
+                        <li class="mb-1"><a href="#">Portfolio</a></li>
+                        <li class="mb-1"><a href="#">Pages</a></li>
+                        <li class="mb-1"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-xs-12 location">
+                    <h5 class="text-uppercase font-weight-bold mb-4">Location</h5>
+                    <p class="d-flex align-items-center">
+                        <i class="bi bi-geo-alt text-primary mx-2 lead"></i>
+                        Bakersfield CA
+                    </p>
+                    <p class="d-flex align-items-center">
+                        <i class="bi bi-phone text-primary mx-2 lead"></i>
+                        (661) 246-7221
+                    </p>
+                    <p class="d-flex align-items-center">
+                        <i class="bi bi-envelope-at text-primary mx-2 lead"></i>
+                        ijbqualitypainting@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
     </footer>
-  </section>
+
+    <!-- FOOTER BOTTOM -->
+    <section class="p-3 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="mb-0">
+                Copyright &copy; 2023 ByIv@n
+            </p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h2"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- MODAL -->
+    <section class="modal-bot">
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Contact To Me</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Fill Form and we will get back to you.</p>
+
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="first-name" class="col-form-label">
+                                    First Name
+                                </label>
+                                <input type="text" class="form-control" id="first_name" name="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="first-name" class="col-form-label">
+                                    Last Name
+                                </label>
+                                <input type="text" class="form-control" id="last_name" name="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="first-name" class="col-form-label">
+                                    E-mail
+                                </label>
+                                <input type="email" class="form-control" id="email" name="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="first-name" class="col-form-label">
+                                    Mob No
+                                </label>
+                                <input type="text" class="form-control" id="mob_no" name="">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-toggle="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Hide this modal and show the first with the button below.
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back
+                            to first</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 </body>
-<script src="./js/hero.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
-  integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-  integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+<!-- SCRIP DE BOOTSTRAP 5 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 
 </html>
