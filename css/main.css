@@ -27,7 +27,7 @@
 
 /* ===================== MODIFICACIONES DEL HERO ===================== */
 #home {
-    height: 95vh;
+    height: 100vh;
     background-image:
         linear-gradient(to top left, rgba(171, 178, 188, 0.692) 50%, rgba(171, 178, 188, 0.692) 50%),
         url('https://imgs.search.brave.com/ba1MOKByO4ViTv5FBC03opcLLb8ccb7IWL_apRoknAs/rs:fit:640:426:1/g:ce/aHR0cHM6Ly9sb3Nj/aC5zZXJ2aWNlcy93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNy8w/NS9OZXctUGFpbnQt/Sm9iLmpwZw');
@@ -40,26 +40,19 @@
 }
 
 .hero-conten {
-    position: relative;
-    z-index: 9999;
-}
-
-
-.p-hero {
-    max-width: 1000px;
+    margin-top: -50px;
 }
 
 .p-hero-1 {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 499;
 }
 
 .text-color {
     color: #fff
 }
 
-.carousel-item img {
-    height: 400px
-}
 
 .newslatter {
     background-color: #071d6e;
