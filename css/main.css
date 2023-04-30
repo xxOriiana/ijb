@@ -153,7 +153,7 @@
 
 .section {
     padding: 100px 0;
-    position: relative;
+    /* position: relative; */
 }
 
 .section-title {
@@ -182,5 +182,11 @@
 
     .menu-home {
         visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .img-hero {
+        display: none;
     }
 }

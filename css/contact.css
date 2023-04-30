@@ -36,6 +36,12 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .container-contact100 {
+        margin-top: 50px;
+    }
+}
+
 /* ===================== MODIFICACIONES DEL HERO ===================== */
 
 .footer-secction, .bi{
