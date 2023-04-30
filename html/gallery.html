@@ -20,14 +20,14 @@
     <section class="menu-navbar">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2 fixed-top menu-home">
             <div class="container">
-                <a class="navbar-brand" href="index.html">IJB Quality Painting</a>
+                <a class="navbar-brand" href="../index.html">IJB Quality Painting</a>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link" href="#">Home</a>
-                        <a class="nav-link" href="#">Services</a>
-                        <a class="nav-link" href="#">About</a>
-                        <a class="nav-link" href="#">Gallery</a>
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="../index.html">Home</a>
+                        <a class="nav-link" href="./services.html">Services</a>
+                        <a class="nav-link" href="./about.html">About</a>
+                        <a class="nav-link" href="./gallery.html">Gallery</a>
+                        <a class="nav-link" href="./contact.html">Contact</a>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
         <!-- MENU OFCANVAS -->
         <nav class="navbar navbar-dark bg-dark fixed-top menu-ofcanvas">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">IJB Quality Painting</a>
+                <a class="navbar-brand" href="../index.html">IJB Quality Painting</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <!-- <span class="navbar-toggler-icon"></span> -->
@@ -51,19 +51,19 @@
                     <div class="offcanvas-body navbar-dark bg-dark">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#home">Home</a>
+                                <a class="nav-link" href="./gallery.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
+                                <a class="nav-link" href="./services.html">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="./about.html">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Gallery</a>
+                                <a class="nav-link" href="./gallery.html">Gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="./contact.html">Contact</a>
                             </li>
                         </ul>
                         <!-- <form class="d-flex mt-3" role="search">
@@ -78,12 +78,121 @@
     </section>
 
     <!-- GALLERY -->
- 
-      
-<!-- SCRIP DE BOOTSTRAP 5 -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-crossorigin="anonymous"></script>
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-body text-center p-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn btn-secondary prev-image"><i
+                            class="bi bi-caret-left-fill"></i></button>
+                    <img src="" alt="Gallery Image" class="img-fluid">
+                    <button type="button" class="btn btn-secondary next-image"><i
+                            class="bi bi-caret-right-fill"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container py-5 mt-5">
+        <h1>We present you our gallery of projects</h1>
+        <p>“Welcome to our IJB gallery! We invite you to take a look at some of our projects and explore the creativity
+            and talent of our artists. Thank you for visiting us and we hope you enjoy your time here.”</p>
+        <br>
+        <div class="row row-cols-3 row-cols-md-3 g-md-4 all-gallery">
+            <div class="col col-md-4 col-sm-6 mb-1 p-1 img-gallery">
+                <img src="../gallery/0.svg" alt="Gallery Image" class="gallery-image img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-bs-image="../gallery/0.svg">
+            </div>
+            <div class="col col-md-4 col-sm-6 mb-1 p-1 img-gallery">
+                <img src="../gallery/1.svg" alt="Gallery Image" class="gallery-image img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-bs-image="../gallery/1.svg">
+            </div>
+            <div class="col col-md-4 col-sm-6 mb-1 p-1 img-gallery">
+                <img src="../gallery/2.svg" alt="Gallery Image" class="gallery-image img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-bs-image="../gallery/2.svg">
+            </div>
+            <div class="col col-md-4 col-sm-6 mb-1 p-1 img-gallery">
+                <img src="../gallery/3.svg" alt="Gallery Image" class="gallery-image img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-bs-image="../gallery/3.svg">
+            </div>
+            <div class="col col-md-4 col-sm-6 mb-1 p-1 img-gallery">
+                <img src="../gallery/4.svg" alt="Gallery Image" class="gallery-image img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-bs-image="../gallery/4.svg">
+            </div>
+            <div class="col col-md-4 col-sm-6 mb-1 p-1 img-gallery">
+                <img src="../gallery/5.svg" alt="Gallery Image" class="gallery-image img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-bs-image="../gallery/5.svg">
+            </div>
+            <div class="col col-md-4 col-sm-6 mb-1 p-1 img-gallery">
+                <img src="../gallery/6.svg" alt="Gallery Image" class="gallery-image img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-bs-image="../gallery/6.svg">
+            </div>
+            <div class="col col-md-4 col-sm-6 mb-1 p-1 img-gallery">
+                <img src="../gallery/7.svg" alt="Gallery Image" class="gallery-image img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-bs-image="../gallery/7.svg">
+            </div>
+            <div class="col col-md-4 col-sm-6 mb-1 p-1 img-gallery">
+                <img src="../gallery/8.svg" alt="Gallery Image" class="gallery-image img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-bs-image="../gallery/8.svg">
+            </div>
+            <div class="col col-md-4 col-sm-6 mb-1 p-1 img-gallery">
+                <img src="../gallery/9.svg" alt="Gallery Image" class="gallery-image img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-bs-image="../gallery/9.svg">
+            </div>
+            <div class="col col-md-4 col-sm-6 mb-1 p-1 img-gallery">
+                <img src="../gallery/10.svg" alt="Gallery Image" class="gallery-image img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-bs-image="../gallery/10.svg">
+            </div>
+            <div class="col col-md-4 col-sm-6 mb-1 p-1 img-gallery">
+                <img src="../gallery/11.svg" alt="Gallery Image" class="gallery-image img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-bs-image="../gallery/11.svg">
+            </div>
+            <div class="col col-md-4 col-sm-6 mb-1 p-1 img-gallery">
+                <img src="../gallery/12.svg" alt="Gallery Image" class="gallery-image img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-bs-image="../gallery/12.svg">
+            </div>
+            <div class="col col-md-4 col-sm-6 mb-1 p-1 img-gallery">
+                <img src="../gallery/13.svg" alt="Gallery Image" class="gallery-image img-fluid" data-bs-toggle="modal"
+                    data-bs-target="#imageModal" data-bs-image="../gallery/13.svg">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        const images = document.querySelectorAll('.gallery-image');
+        const modalImage = document.querySelector('#imageModal img');
+        const prevImage = document.querySelector('#imageModal .prev-image');
+        const nextImage = document.querySelector('#imageModal .next-image');
+        let currentImageIndex = 0;
+
+        images.forEach((image, index) => {
+            image.addEventListener('click', event => {
+                currentImageIndex = index;
+                const src = event.target.getAttribute('data-bs-image');
+                modalImage.setAttribute('src', src);
+            });
+        });
+
+        prevImage.addEventListener('click', () => {
+            currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+            const src = images[currentImageIndex].getAttribute('data-bs-image');
+            modalImage.setAttribute('src', src);
+        });
+
+        nextImage.addEventListener('click', () => {
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            const src = images[currentImageIndex].getAttribute('data-bs-image');
+            modalImage.setAttribute('src', src);
+        });
+    </script>
+
+    <!-- SCRIP DE BOOTSTRAP 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

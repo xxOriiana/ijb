@@ -21,10 +21,6 @@
     box-shadow: none;
 }
 
-.btn-close {
-    background-color: rgb(209, 200, 187);
-}
-
 /* ===================== MODIFICACIONES DE MEDIA QUERY ===================== */
 @media screen and (max-width: 990px) {
     .menu-ofcanvas {
@@ -36,5 +32,127 @@
     }
 }
 
+body {
+    background-color: #071d6e;
+}
+h1 {
+    color: white;
+}
+p {
+    color: white;
+    font-size: 19px;
+}
+
 /* ======================= GALLERY ================================ */
 
+@media (min-width: 730px) {
+    #imageModal .modal-dialog {
+        max-width: 100%;
+        /* display: flex;
+        align-items: center; */
+    }
+
+    #imageModal .modal-content {
+        background-color: transparent;
+        max-width: 90%;
+        margin: auto;
+        height: auto;
+    }
+
+
+    #imageModal .btn-close {
+        position: absolute;
+        top: 0;
+    }
+
+    .all-gallery {
+        margin-top: 50px;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .prev-image,
+    .next-image {
+        margin: 10px;
+        /* z-index: 1; */
+        background-color: transparent;
+        border: none;
+        color: #071d6e;
+        font-size: 30px;
+    }
+
+    .btn:focus {
+        background-color: transparent !important;
+        box-shadow: none;
+        border: none;
+        color: #071d6e;
+        outline: none;
+    }
+
+    .btn:hover {
+        background-color: transparent;
+    }
+
+}
+
+
+@media (max-width: 729px) {
+    #imageModal .modal-dialog {
+        max-width: 100%;
+        /* display: flex;
+        align-items: center; */
+    }
+
+    #imageModal .modal-content {
+        background-color: transparent !important;
+        max-width: 90%;
+        margin: auto;
+        height: auto;
+    }
+
+
+    #imageModal .btn-close {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    .prev-image,
+    .next-image {
+        margin: 10px;
+        /* z-index: 1; */
+        background-color: transparent;
+        border: none;
+        color: #071d6e;
+        font-size: 30px;
+    }
+
+    .btn:focus {
+        background-color: transparent;
+        box-shadow: none;
+        border: none;
+        color: #071d6e;
+        outline: none;
+    }
+
+    .btn:hover {
+        background-color: transparent !important;
+    }
+
+    .prev-image {
+        position: absolute;
+        top: 80%;
+    }
+
+    .next-image {
+        position: absolute;
+        right: 0;
+        top: 80%;
+    }
+}
+
+.img-gallery {
+    margin: 0 !important;
+    padding: 1px !important;
+}
